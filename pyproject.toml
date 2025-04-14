@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "An MCP server that has the ability to interact with the ransomware.live API"
 readme = "README.md"
 requires-python = ">=3.11"
-keywords = ["mcp", "llm", "automation", "web", "fetch"]
+keywords = ["mcp", "llm", "ransomware", "web", "fetch", "cti"]
 license = { text = "MIT" }
 dependencies = [
     "mcp",
@@ -12,11 +12,11 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-simple-tool = "ransomwarelive-mcp-server.server:main"
+ransomwarelive-mcp-server = "ransomwarelive_mcp_server.server:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["ransomwarelive-mcp-server"]
+packages = ["ransomwarelive_mcp_server"]

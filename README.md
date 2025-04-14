@@ -9,7 +9,7 @@ Usage
 Start the server using the default stdio transport
 
 ```bash
-uv run server.py
+uv run ransomwarelive_mcp_server
 ```
 
 Usage (Development)
