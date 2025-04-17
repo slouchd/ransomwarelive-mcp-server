@@ -112,7 +112,7 @@ def get_victims_by_sector_countrycode(sector: str, countrycode: str, shorter_con
 @mcp.tool()
 def get_victims_by_countrycode(countrycode: str) -> dict:
     """
-    Get details about victims within a specific sector
+    Get details about victims within a specific country
 
     :param countrycode: country to find victims within
     :return: dict object with victims by 2-letter country code
